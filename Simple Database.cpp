@@ -235,9 +235,7 @@ void Save(ifstream &input, ofstream &output, linkedList &list,
 //*****************************COUT HEADING***************************
 void HeadingScreen()
 {
-	cout << "Name:Kevin Davis \n"
-		 << "Course:CS1063, Fall 2018, Dr.Johnson \n\n"
-		 << "This program allows a user to edit a file with records. \n"
+	cout  << "This program allows a user to edit a file with records. \n"
 		 << "it uses linked list to store the files and the user can view, \n"
 		 << "delete or add data to the list, which can then be stored at \n"
 		 << "the users discression back to the original file.\n"
@@ -248,11 +246,9 @@ void HeadingScreen()
 //***************************OUTPUT HEADING************************
 void HeadingOutput(ofstream &output)
 {
-	output << "Name:Kevin Davis \n"
-		   << "Course:CS1063, Fall 2018, Dr.Johnson \n\n"
-		   << "This program allows a user to edit a file with records. \n"
-	   	   << "it uses linked list to store the files and the user can view, \n"
-		   << "delete or add data to the list, which can then be stored at \n"
-		   << "the users discression back to the original file.\n"
-		   << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n\n";
+	output  << "This program allows a user to edit a file with records. \n"
+	   	<< "it uses linked list to store the files and the user can view, \n"
+		<< "delete or add data to the list, which can then be stored at \n"
+	 	<< "the users discression back to the original file.\n"
+		<< "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n\n";
 }
